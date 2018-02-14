@@ -1,2 +1,0 @@
-12.18.17
-- modified parse_pathway due to an error in parsing substrates and products (parse_pathway_4, python2)
