@@ -1,0 +1,3 @@
+getReacList.py
+- 'reacs' directory contains list of reactions linked with a gene (filenames are KEGG IDs for genes)
+
