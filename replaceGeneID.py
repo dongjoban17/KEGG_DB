@@ -4,10 +4,7 @@ from bioservices import KEGG
 
 def main():
 
-	with open("hsa_gene_list.json","r") as g:
-		gene_data = json.load(g)
-
-	with open("KEGG_DB.json") as kg:
+	with open("Test_DB.json") as kg:
 		kegg_data = json.load(kg)
 
 	k = KEGG()
