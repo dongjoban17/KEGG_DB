@@ -1,0 +1,11 @@
+KEGG_Reac.json
+
+- contains reaction IDs from KEGG and reaction information as key & value in dict.
+
+hsa_gene_list.json
+
+- contains gene IDs from KEGG and its matching gene symbols (not used)
+
+hsa_list.txt
+
+- contains a list of hsa pathways available on KEGG
