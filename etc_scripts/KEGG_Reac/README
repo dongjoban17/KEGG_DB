@@ -1,0 +1,2 @@
+KEGG_Reac.json:
+{<Reaction ID>: [ <Reversibility>, <Conflicting reversibility?> ]}
