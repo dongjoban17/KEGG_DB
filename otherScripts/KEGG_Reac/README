@@ -1,0 +1,8 @@
+KEGG_Reac.json:
+{<Reaction ID>: [ <Reversibility>, <Conflicting reversibility?> ]}
+
+KEGG reaction annotations are based on research efforts from the scientific community (journals, etc). Just because a reaction says it is irreversible, that does not mean necessarily that it actually is irreversible (from curators of KEGG DB).  Therefore, users should be careful when interpreting reversibility information.
+
+It was also found that some reversibility information are mismatching in some pathways (i.e. shows up as irreversible in KEGG Reactions entry, but shows up as reversible in KGML)
+
+The purpose of the scripts in this directory was to create a list of KEGG reactions, record their reversibility information, and determine whether they have a conflicting reversibility information.

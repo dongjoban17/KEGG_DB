@@ -1,11 +1,9 @@
-KEGG_Reac.json
+Extracting information from KEGG to create a network of metabolites.
 
-- contains reaction IDs from KEGG and reaction information as key & value in dict.
+Files explained:
 
-hsa_gene_list.json
-
-- contains gene IDs from KEGG and its matching gene symbols (not used)
-
-hsa_list.txt
-
-- contains a list of hsa pathways available on KEGG
+- 'otherScripts' consists of scripts used to check the information extracted.
+- 'reacs' contains the list of reactions required when parsing KGML files. Created to reduce processing time due to querying KEGG
+- 'hsa_gene_list.json' organizes the gene symbols associated with each KEGG gene ids.
+- 'ginfo.json' keeps track of queried results for each KEGG gene. Created to reduce processing time due to querying KEGG.
+- 'hsa_list.txt' is the list of all human pathways found on KEGG.

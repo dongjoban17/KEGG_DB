@@ -1,0 +1,3 @@
+This folder consists of test scripts comparing the list of hsa genes vs list of hsa genes in hsa pathways.
+
+The purpose of the comparison was to see if there was a big difference between the two lists. As expected, not all genes in hsa showed up in the pathway data from KGML.
